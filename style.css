@@ -1,0 +1,84 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.button-section {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+}
+
+h1 {
+  color: #2d3436;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+/* 慰めボタンのスタイル */
+#comfort-btn {
+  background: #fd79a8;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+}
+
+#comfort-btn:hover {
+  background: #e84393;
+  transform: translateY(-2px);
+}
+
+/* 誘惑ボタンのスタイル */
+#temptation-btn {
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+}
+
+#temptation-btn:hover {
+  background: #5f3dc4;
+  transform: translateY(-2px);
+}
+
+/* メッセージ表示エリア */
+#comfort-display, #temptation-display {
+  font-size: 18px;
+  color: #2d3436;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  transition: opacity 0.3s ease;
+}
