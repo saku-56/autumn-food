@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // 慰めボタンの処理
+  // なぐさめボタンの処理
   const comfortButton = document.getElementById('comfort-btn');
   const comfortDisplay = document.getElementById('comfort-display');
 
