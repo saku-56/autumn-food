@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
      temptationClickCount++;
     if (temptationClickCount === 7) {
-    // 10回目の特別メッセージ
+    // 7回目の特別メッセージ
     temptationDisplay.textContent = "こんなに押したのにまだ食べに行かへんの？？";
     temptationDisplay.style.cssText = `
     color:rgb(32, 31, 31);
